@@ -1,0 +1,5 @@
+// Print a number in terminal
+
+num = int (input('Digite um numero:'))
+print('=============================')
+print('O numero e:', num)
