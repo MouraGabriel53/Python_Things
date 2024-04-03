@@ -1,0 +1,10 @@
+usuario = str(input('Digite o nome do usuario: '))
+senha = int(input('Digite a sua senha: '))
+
+sucesso = 'Usuario logado'
+incorreto = 'Falha no login'
+
+if usuario == 'aviao' and senha == 1234:
+    print(sucesso)
+else:
+    print(incorreto)
