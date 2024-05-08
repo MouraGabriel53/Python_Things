@@ -1,0 +1,6 @@
+num = int(input('Digite o numero que deseja a tabuada:  '))
+fim = int(input('Digite ate qual numero voce deseja a tabuada: '))
+final = fim + 1
+for elemento in range(1, final, 1):
+    tabuada = num * elemento
+    print(tabuada)
