@@ -1,0 +1,9 @@
+dicionario = {
+    
+    'Nome' : 'Gabriel',
+    'País' : 'Ucrânia',
+    'Cidade' : 'Léguas'
+    
+}
+
+print(dicionario)
