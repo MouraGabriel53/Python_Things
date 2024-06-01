@@ -1,0 +1,46 @@
+x = 10
+
+def print_variable():
+    print(x)
+
+print_variable()
+
+y = 25
+
+def change_variable():
+    y = 5
+    print('Alterou para:', y)
+
+change_variable()
+
+def welcome():
+    print('Bem-vindo ao curso de Python!')
+    
+welcome()
+
+def sum():
+    print(x + y)
+    
+sum()
+
+def num_div(a, b):
+    print('A divisão resulta em:', a / b)
+    
+num_div(10, 10)
+
+def hello_friend(nome = 'Amigo'):
+    print(f'Olá, {nome}') # Utiliza-se 'f' para concatenar variáveis dentro de strings
+    
+hello_friend(input('Digite seu nome: '))
+
+def multiplex(a, b=1):
+    print(a * b)
+
+multiplex(4)
+multiplex(4, 5)
+
+def duple(g):
+    return g * 2
+
+result = duple(5)
+print(result)
